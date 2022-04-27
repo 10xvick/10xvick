@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpack and typescript</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+
+      canvas {
+        width: 100%;
+        height: 100%;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -webkit-crisp-edges;
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+      }
+
+      .pos-absolute {
+        position: absolute;
+      }
+
+      .text-green {
+        color: green;
+      }
+
+      .bg-green {
+        background-color: rgb(144, 191, 144);
+      }
+    </style>
+  </head>
+  <body class="bg-green">
+    <canvas width="50" height="50" id="gamecanvas"></canvas>
+    <!-- <div class="pos-absolute text-green" id="stats"></div> -->
+    <script src="bundle.js"></script>
+  </body>
+</html>
