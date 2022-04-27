@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @10xvick
 - 👀 I’m interested in web development
 - 🌱 I’m currently learning blazor
-- 💞️ I’m looking to collaborate on ffmpeg.wasm
+- 💞️ I’m looking to collaborate on interactive placeholder project
 - 📫 reach me at 10xvick@gmail.com
 
 <!---
